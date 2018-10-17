@@ -11,16 +11,22 @@ namespace MTDClasses
     public abstract class Train
     {
         private List<Domino> listofDominos;
-        private int engValue;
+        private int engineValue;
 
-        public Train()
+        public Train()//set engine value this.eng
         {
-            listofDominos = new List<Domino>();
+            //listofDominos = new List<Domino>();
         }
 
-        public Train(int engValue)
+        public Train(int engValue) //make the default and do nothing
         {
-
+            listofDominos = new List<Domino>();
+            if (engValue <= 0)
+            {
+                throw new Exception("Engine value is less than 0");
+            }
+            else
+            this.engineValue = engValue;
         }
 
         /// <summary>
@@ -41,10 +47,13 @@ namespace MTDClasses
         {
             get
             {
-                return 1;
+                return engineValue;
             }
         }
 
+        /// <summary>
+        /// checks and returns true if the listofdominos is empty and false if its not.
+        /// </summary>
         public bool IsEmpty
         {
             get
@@ -58,7 +67,10 @@ namespace MTDClasses
             }
         }
 
-        public Domino LastDomino
+        /// <summary>
+        /// 
+        /// </summary>
+        public Domino LastDomino // throw in an if statement and check for an empty list. return null
         {
             get
             {
@@ -75,24 +87,36 @@ namespace MTDClasses
             
             get
             {                
-                return ;
+               return LastDomino.Side2;
             }
             
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="d"></param>
         public void Add(Domino d)
         {
             listofDominos.Add(d);
         }
 
-        public Domino this[int index]
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="index"></param>
+        /// <returns></returns>
+        public Domino this[int index] // doesn't need to check for valid answers
         {
             get
             {
+                /*
                 if (index < 0 || index > listofDominos.Count)
                 {
                     throw new ArgumentOutOfRangeException("index");
                 }
+                */
+
                 return listofDominos[index];
             }
             set { listofDominos[index] = value; }
@@ -110,32 +134,38 @@ namespace MTDClasses
         /// </summary>
         protected bool IsPlayable(Domino d, out bool mustFlip)
         {
-            if (IsEmpty)
+            if (!IsEmpty)
             {
                 //if our engine value = side1
                 //mustflip = false;
-                if (d.Side1 == engValue)
+                if (d.Side1 == PlayableValue)
                 {
                     mustFlip = false;
                     return true;
                 }
                 //if our engine value = side2
                 //mustflip = true;
-                else if (d.Side2 == engValue)
+                else if (d.Side2 == PlayableValue)
                 {
                     mustFlip = true;
                     return true;
                 }
-                else
-                {
-                    mustFlip = false;
-                    return false;
-                }
+
 
             }
+            else
+            {
+                mustFlip = false;
+                return false;
+            }
+
         }
 
-        // assumes the domino has already been removed from the hand
+        /// <summary>
+        /// assumes the domino has already been removed from the hand
+        /// </summary>
+        /// <param name="h"></param>
+        /// <param name="d"></param>
         public void Play(Hand h, Domino d)
         {
             bool mustFlip = false;
@@ -152,6 +182,10 @@ namespace MTDClasses
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             if (this.IsEmpty)

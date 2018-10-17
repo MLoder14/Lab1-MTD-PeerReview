@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ namespace MTDClasses
         /// <summary>
         /// The list of dominos in the hand
         /// </summary>
-        public List<Domino> handofDominos = new List<Domino>();
+        public List<Domino> handofDominos; //= new List<Domino>();
 
         /// <summary>
         /// Creates an empty hand
@@ -42,7 +43,7 @@ namespace MTDClasses
             {
                 for (int d = 0; d == 10; d++)
                 {
-                    handofDominos.Add(by.Draw());
+                   handofDominos.Add(by.Draw());
                 }
             }
             if (numPlayers == 5 || numPlayers == 6)
@@ -192,11 +193,14 @@ namespace MTDClasses
         {
             //foreach loop instead?
             foreach (Domino d in handofDominos)
-            {                
-                if (d.IsDouble())
+            {
+                for (int i = 12; i <= 0; i--)
                 {
-                    return d.Side1;
-                } 
+                    if ()
+                    {
+                        return d.Side1;
+                    }
+                }
             }
             return -1;
         }
@@ -304,7 +308,7 @@ namespace MTDClasses
             {
                 handofDominos.RemoveAt(index);
                 if (mustFlip)
-                    d.Flip()
+                    d.Flip();
                 t.Play(this, d);
             }
             else
@@ -329,7 +333,10 @@ namespace MTDClasses
                 Play(i, t);
             }
         }
-
+        
+        /*
+        
+        
         /// <summary>
         /// Plays the first playable domino in the hand on the train
         /// Removes the domino from the hand.
@@ -343,14 +350,15 @@ namespace MTDClasses
         {
             int playValue = t.PlayableValue;
             int i = IndexOfDomino(playValue);
+            
             if (i != -1)
             {
                 Domino playable = this[i];
                 Play(i, t);
-                return playValue;
+                return;
                 //remove the domino
             }
-
+            
             //throw exception
         }
 
@@ -358,7 +366,40 @@ namespace MTDClasses
         // call the tosring from the domino class with a for loop.
         public override string ToString()
         {
+            return handofDominos.ToString();
+        }
 
+       */
+    }
+
+    class AHand: IEnumerable<Hand>
+    {
+        List<Hand> myList = new List<Hand>();
+
+        public Hand this[int i]
+        {
+            get { return myList[i]; }
+            set { myList.Insert(i, value); }
+        }
+
+
+
+        public IEnumerator<Hand> GetEnumerator()
+        {
+            return myList.GetEnumerator();
+        }
+
+        /*
+        IEnumerator<Hand> IEnumerable.GetEnumerator()
+        {
+            return this.GetEnumerator();
+        }
+        */
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return this.GetEnumerator();
+            //throw new NotImplementedException();
         }
     }
 }

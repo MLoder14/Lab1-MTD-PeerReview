@@ -6,8 +6,18 @@ using System.Threading.Tasks;
 
 namespace MTDClasses
 {
-    class MexicanTrain
+    class MexicanTrain : Train
     {
+        //Default const
+        public MexicanTrain() : base() { }
 
+        //overloaded const
+        public MexicanTrain(int engineValue) : base(engineValue) { }
+
+        //override the abstract is playable method.
+        public override bool IsPlayable(Hand h, Domino d, out bool mustFlip)
+        {
+            return IsPlayable(h, d, out mustFlip);
+        }
     }
 }

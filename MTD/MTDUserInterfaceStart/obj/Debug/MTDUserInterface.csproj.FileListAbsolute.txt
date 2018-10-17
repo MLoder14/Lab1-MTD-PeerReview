@@ -1,0 +1,26 @@
+C:\Users\Student\Desktop\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\obj\Debug\MTDUserInterface.csprojAssemblyReference.cache
+C:\Users\Student\Desktop\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\obj\Debug\MTDUserInterface.PlayMTDRightClick.resources
+C:\Users\Student\Desktop\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\obj\Debug\MTDUserInterface.Properties.Resources.resources
+C:\Users\Student\Desktop\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\obj\Debug\MTDUserInterface.csproj.GenerateResource.cache
+C:\Users\Student\Desktop\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\obj\Debug\MTDUserInterface.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\bin\Debug\MTDUserInterface.exe.config
+C:\Users\Student\Desktop\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\bin\Debug\MTDUserInterface.exe
+C:\Users\Student\Desktop\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\bin\Debug\MTDUserInterface.pdb
+C:\Users\Student\Desktop\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\bin\Debug\MTDClasses.dll
+C:\Users\Student\Desktop\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\bin\Debug\MTDClasses.pdb
+C:\Users\Student\Desktop\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\obj\Debug\MTDUserInterface.csproj.CopyComplete
+C:\Users\Student\Desktop\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\obj\Debug\MTDUserInterface.exe
+C:\Users\Student\Desktop\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\obj\Debug\MTDUserInterface.pdb
+C:\Users\Marcus\Desktop\MTD - MARCUS\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\bin\Debug\MTDUserInterface.exe.config
+C:\Users\Marcus\Desktop\MTD - MARCUS\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\bin\Debug\MTDUserInterface.exe
+C:\Users\Marcus\Desktop\MTD - MARCUS\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\bin\Debug\MTDUserInterface.pdb
+C:\Users\Marcus\Desktop\MTD - MARCUS\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\bin\Debug\MTDClasses.dll
+C:\Users\Marcus\Desktop\MTD - MARCUS\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\bin\Debug\MTDClasses.pdb
+C:\Users\Marcus\Desktop\MTD - MARCUS\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\obj\Debug\MTDUserInterface.csprojAssemblyReference.cache
+C:\Users\Marcus\Desktop\MTD - MARCUS\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\obj\Debug\MTDUserInterface.PlayMTDRightClick.resources
+C:\Users\Marcus\Desktop\MTD - MARCUS\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\obj\Debug\MTDUserInterface.Properties.Resources.resources
+C:\Users\Marcus\Desktop\MTD - MARCUS\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\obj\Debug\MTDUserInterface.csproj.GenerateResource.cache
+C:\Users\Marcus\Desktop\MTD - MARCUS\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\obj\Debug\MTDUserInterface.csproj.CoreCompileInputs.cache
+C:\Users\Marcus\Desktop\MTD - MARCUS\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\obj\Debug\MTDUserInterface.csproj.CopyComplete
+C:\Users\Marcus\Desktop\MTD - MARCUS\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\obj\Debug\MTDUserInterface.exe
+C:\Users\Marcus\Desktop\MTD - MARCUS\MTD - MARCUS\Lab-1-MTD\MTD\MTDUserInterfaceStart\obj\Debug\MTDUserInterface.pdb

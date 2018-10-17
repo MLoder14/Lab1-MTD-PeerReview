@@ -8,7 +8,8 @@ namespace MTDClasses
 {
     public class PlayerTrain
     {
-        
+        //instance variable of a hand and a bool isOpen are needed
+        /*
 
         public PlayerTrain(Hand h) : base()
         {
@@ -61,8 +62,9 @@ namespace MTDClasses
         /// <returns></returns>
         public override bool IsPlayable(Hand h, Domino d, out bool mustFlip)
         {
-
+            // return base.IsPlayable if (this.isopen ) or hand = hand
         }
 
+        */
     }
 }
